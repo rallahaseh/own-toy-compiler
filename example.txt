@@ -1,0 +1,27 @@
+extern int printi(int val);
+
+int do_math(int a) {
+	int x = a * 5;
+  	return x + 3;
+}
+
+printi(do_math(8)-1);
+
+// Rashed Al-Lahaseh - 00821573
+// Add test functions
+
+void testFunc() {
+	return;
+}
+
+//float mult(int x, int y) {
+//	return x * y; // Should return error
+//}
+
+//int add(int a, int b) {
+//	return; // Should return error
+//}
+
+//void constFunc() {
+//	return 1; // Should return error
+//}
